@@ -8,7 +8,6 @@ export default function App() {
   const { odabrani_datum, valuta } = useParams();
 
   const { data } = useGetDetailsQuery(valuta);
-  console.log('🚀 ~ App ~ data:', data);
   return (
     <div className="flex justify-center items-center mt-80">
       <Card className="max-w-[400px]">
